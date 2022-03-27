@@ -1,231 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" media="screen and (max-width:768px)" href="style/mobile.css">
-    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <title>News Grid</title>
 
+    <title>NewsGrid | Latest News</title>
 </head>
-
 <body>
     <nav id="main-nav">
         <div class="container">
-            <img class="logo" src="image/logo.png" alt="logo">
+            <img src="img/logo.png" alt="NewsGrid" class="logo">
             <div class="social">
-                <a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
             </div>
-
             <ul>
                 <li><a class="current" href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-
             </ul>
         </div>
-
     </nav>
-    <!-- show case  -->
+
+    <!-- Showcase -->
     <header id="showcase">
         <div class="container">
             <div class="showcase-container">
                 <div class="showcase-content">
-                    <div class="category category-sports">
-                        Sports
-                    </div>
-                    <h1>Some Sports article </h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos ratione officia odit, architecto,
-                        magni illum voluptate nam velit, provident necessitatibus quis maiores aut! Eligendi nulla totam
-                        quos suscipit quas veniam.</p>
-
+                    <div class="category category-sports">Sports</div>
+                    <h1>Why Sports-Ball Important</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non odio euismod lacinia at quis risus sed vulputate odio. Deleniti architecto est qui, dolores quo necessitatibus deserunt eaque quis, eius earum voluptates?</p>
                     <a href="article.html" class="btn btn-primary">Read More</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- home artivles -->
-
+    <!-- Home Articles -->
     <section id="home-articles" class="py-2">
         <div class="container">
-            <h2>Editor picks</h2>
+            <h2>Editor Picks</h2>
             <div class="articles-container">
-                <!-- 1 -->
                 <article class="card">
-                    <img src="./image/articles/ent1.jpg" alt="Entertianment">
+                    <img src="img/articles/ent1.jpg" alt="">
                     <div>
-                        <div class="category category-ent">
-                            Entertianment
-                        </div>
-                        <h3>Lorem ipsum dolor </h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Vero ut possimus consequatur facilis non veniam incidunt placeat voluptate ratione.
-                            Nisi pariatur nobis vero aperiam consectetur,
-                            inventore nulla ipsam dolor maxime velit.
-                            Accusamus earum velit excepturi, aliquid impedit quae fuga dolorem.</p>
+                        <div class="category category-ent">Entertainment</div>
+                        <h3>
+                            <a href="article.html">VR Today: A Good Time For a Great Escape</a>
+                        </h3>
+                        <p>Real reality is boring! Don't waste your time. Adipisicing elit. Eligendi dolorum fugiat, nostrum quam quaerat dolor tenetur cum blanditiis ducimus laudantium.</p>
                     </div>
                 </article>
-
-                <!-- 2 -->
                 <article class="card bg-dark">
-                    <div class="category category-sports">
-                        Sports
-                    </div>
-                    <h3>Lorem ipsum dolor </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Vero ut possimus consequatur facilis non veniam incidunt placeat voluptate ratione.
-                        Nisi pariatur nobis vero aperiam consectetur,
-                        inventore nulla ipsam dolor maxime velit.
-                        Accusamus earum velit excepturi, aliquid impedit quae fuga dolorem.</p>
-
+                    <div class="category category-sports">Sports</div>
+                    <h3>
+                        <a href="article.html">Not All Titles Are Funny Or Ironic</a>
+                    </h3>
+                    <p>Wait... Ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum fugiat, nostrum quam quaerat dolor tenetur cum blanditiis ducimus laudantium.</p>
                 </article>
-
-                <!-- 3 -->
                 <article class="card">
-                    <img src="image/articles/tech1.jpg" alt="tech1">
-                    <div class="category category-tech">
-                        Technology
-                    </div>
-                    <h3>Lorem ipsum dolor </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Vero ut possimus consequatur facilis non veniam incidunt placeat voluptate ratione.
-                        Nisi pariatur nobis vero aperiam consectetur,
-                        inventore nulla ipsam dolor maxime velit.
-                        Accusamus earum velit excepturi, aliquid impedit quae fuga dolorem.</p>
-
+                    <img src="img/articles/tech1.jpg" alt="">
+                    <div class="category category-tech">Technology</div>
+                    <h3>
+                        <a href="article.html">While You Sleep, Computers Get Stronger</a>
+                    </h3>
+                    <p>Sweet dreams. Dolor sit amet consectetur adipisicing elit. Eligendi dolorum fugiat, nostrum quam quaerat dolor tenetur cum blanditiis ducimus laudantium.</p>
                 </article>
-
-                <!-- 4 -->
-
                 <article class="card">
-                    <div class="category category-sports">
-                        Sports
-                    </div>
-                    <h3>Lorem ipsum dolor </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Vero ut possimus consequatur facilis non veniam incidunt placeat voluptate ratione.
-                        Nisi pariatur nobis vero aperiam consectetur,
-                        inventore nulla ipsam dolor maxime velit.
-                        Accusamus earum velit excepturi, aliquid impedit quae fuga dolorem.</p>
-                    <img src="image/articles/sports1.jpg" alt="Sports">
+                    <div class="category category-sports">Sports</div>
+                    <h3>
+                        <a href="article.html">We Bet You Like Go Fast</a>
+                    </h3>
+                    <p>They go fast. Only two wheel! Consectetur adipisicing elit. Eligendi dolorum fugiat, nostrum quam quaerat dolor tenetur cum blanditiis ducimus laudantium.</p>
+                    <img src="img/articles/sports1.jpg" alt="">
                 </article>
-
-                <!-- 5 -->
-
                 <article class="card">
-                    <img src="image/articles/tech2.jpg" alt="tech2">
-                    <div class="category category-tech">
-                        Technology
-                    </div>
-                    <h3>Lorem ipsum dolor </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Vero ut possimus consequatur facilis non veniam incidunt placeat voluptate ratione.
-                        Nisi pariatur nobis vero aperiam consectetur,
-                        inventore nulla ipsam dolor maxime velit.
-                        Accusamus earum velit excepturi, aliquid impedit quae fuga dolorem.</p>
-
+                    <img src="img/articles/tech2.jpg" alt="">
+                    <div class="category category-tech">Technology</div>
+                    <h3>
+                        <a href="article.html">In Case You Missed It, LEDs Are A Thing</a>
+                    </h3>
+                    <p>Sources have confirmed the existence of LED: Light-Emitting Diode. Unfortunately all we have is verbal confirmation and no clear source to give you. ¯\_(ツ)_/¯</p>
                 </article>
-
-                <!-- 6 -->
                 <article class="card bg-primary">
-                    <div class="category category-sports">
-                        Sports
-                    </div>
-                    <h3>Lorem ipsum dolor </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Vero ut possimus consequatur facilis non veniam incidunt placeat voluptate ratione.
-                        Nisi pariatur nobis vero aperiam consectetur,
-                        inventore nulla ipsam dolor maxime velit.
-                        Accusamus earum velit excepturi, aliquid impedit quae fuga dolorem.</p>
-
+                    <div class="category category-sports">Sports</div>
+                    <h3>
+                        <a href="article.html">It Must Be Funny If We Do It Again</a>
+                    </h3>
+                    <p>Right...? Ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum fugiat, nostrum quam quaerat dolor tenetur cum blanditiis ducimus laudantium.</p>
                 </article>
-
-                <!-- 7 -->
-
                 <article class="card">
                     <div>
-                        <div class="category category-ent">
-                            Entertianment
-                        </div>
-                        <h3>Lorem ipsum dolor </h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Vero ut possimus consequatur facilis non veniam incidunt placeat voluptate ratione.
-                        </p>
+                        <div class="category category-ent">Entertainment</div>
+                        <h3>
+                            <a href="article.html">Shocking Footage Of Capturing Footage</a>
+                        </h3>
+                        <p>You won't believe what they're really doing behind those big cameras. And neither do we, it's actually fucking ridiculous. Cum blanditiis ducimus laudantium.</p>
                     </div>
-
-                    <div>
-                        <img src="image/articles/ent2.jpg" alt="ent2">
-                    </div>
-
+                    <img src="img/articles/ent2.jpg" alt="">
                 </article>
-
             </div>
         </div>
     </section>
 
-
-    <!-- footer  -->
-    <footer id="main-footer" class="bg-dark py-2">
-        <div class="container">
-
-            <div class="footer-container">
-                <div class="footer-container-top">
-                    <!-- 1 -->
-                    <div>
-                        <img class="logo" src="image/logo_light.png" alt="logo">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Autem et qui excepturi
-                            explicabo dolore quas est assumenda praesentium quasi quia!</p>
-                    </div>
-
-                    <!-- 2  -->
-                    <div>
-                        <h2 class="">EMAIL NEWLETTER</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur
-                            adipisicing elit. Quis, tempore.</p>
-                        <input type="email" name="email" id="email" placeholder="Enter EmaiL...">
-                        <button class="btn btn-primary">Subscribe</button>
-                    </div>
-
-                    <!-- 3 -->
-
-                    <div class="list">
-                        <h2>SITE LINKES</h2>
-                        <ul>
-                            <li><a href="#">Help & Support</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <!-- 4  -->
-
-                    <div>
-                        <h2 class="">Join Our Club</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Modi, nesciunt!</p>
-                        <button class="btn btn-secondary">Join Now</button>
-                    </div>
-
-                </div>
-
-                <div class="footer-container-bottom ">
-                    <p>Copyright © 2019, All Rights Reserved</p>
-                </div>
-
+    <!-- Footer -->
+    <footer id="main-footer" class="py-2">
+        <div class="container footer-container">
+            <div>
+                <img src="img/logo_light.png" alt="NewsGrid">
+                <p>All the news you need in the <em>tightest</em> grid you'll ever find. Nesciunt voluptates ut dolor et animi necessitatibus unde sit explicabo vero.</p>
+            </div>
+            <div>
+                <h3>Email Newsletter</h3>
+                <p>You will get annoyed but you <em>can</em> unsubscribe.</p>
+                <form name="contact" method="POST" data-netlify="true">
+                    <input type="email" name="email" placeholder="Enter Email">
+                    <input type="submit" value="Subscribe" class='btn btn-primary'>
+                </form>
+            </div>
+            <div>
+                <h3>Site Links</h3>
+                <ul class="list">
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Join Our Club</h2>
+                <p>It's exclusive solely for the purpose of making you feel better than everyone else.</p>
+                <a href="#" class="btn btn-secondary">Join Now</a>
+            </div>
+            <div>
+                <p>
+                    Copyright &copy; 2019, All Rights Reserved
+                </p>
             </div>
         </div>
-
-
     </footer>
-
 </body>
-
 </html>
