@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches" rel="stylesheet">
 
@@ -14,7 +16,22 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <title>NewsGrid | Latest News</title>
+    <script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({ article: 'auto' });
+        !function (e, f, u, i) {
+            if (!document.getElementById(i)) {
+                e.async = 1;
+                e.src = u;
+                e.id = i;
+                f.parentNode.insertBefore(e, f);
+            }
+        }(document.createElement('script'),
+            document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/betterbytheminute/loader.js','tb_loader_script');
+        if (window.performance && typeof window.performance.mark == 'function') { window.performance.mark('tbl_ic'); }
+    </script>
 </head>
+
 <body>
     <nav id="main-nav">
         <div class="container">
@@ -42,9 +59,36 @@
                         <small><i class="fas fa-user"></i> Written by John Doe January 12, 2019</small>
                         <div class="category category-ent">Entertainment</div>
                     </div>
-                    <p>What you didn't expect was consectetur adipisicing elit. Commodi adipisci asperiores reiciendis qui optio expedita excepturi sed velit nobis accusamus facere quasi nostrum fuga omnis suscipit dolor et quibusdam laboriosam rem itaque ex officiis inventore, placeat id. Modi porro dignissimos accusamus laborum quas dolorem eum. Quasi voluptas doloribus quibusdam odio?</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, non. Quam dolores eius, temporibus explicabo consequuntur laudantium quia animi nostrum deserunt doloremque molestias aliquid numquam ex maiores iste magnam fugit perspiciatis! Dolorem cupiditate molestias, quidem qui suscipit hic quis enim, dicta aspernatur consequatur deleniti veniam adipisci atque officia! Inventore hic cupiditate laboriosam accusamus, perferendis delectus aspernatur accusantium fugiat in fuga ratione tempora modi blanditiis officiis consequatur consequuntur corrupti eum molestias quas, alias incidunt esse reprehenderit beatae ipsum. Eveniet laborum nobis numquam veritatis nam doloribus minima alias et mollitia, quo repudiandae ad vel ratione sunt nemo rem asperiores molestias, nihil impedit, rerum pariatur. Laboriosam architecto explicabo perspiciatis, deserunt amet incidunt ratione blanditiis neque, pariatur fugiat eligendi facere est. Animi voluptate culpa aliquam, adipisci ducimus debitis. Soluta architecto vitae facilis quis, eos cum amet rerum vero tempore, repudiandae itaque. Voluptatum magnam in blanditiis nesciunt cupiditate voluptatem omnis, veniam porro obcaecati adipisci corporis.</p>
+                    <p>What you didn't expect was consectetur adipisicing elit. Commodi adipisci asperiores reiciendis
+                        qui optio expedita excepturi sed velit nobis accusamus facere quasi nostrum fuga omnis suscipit
+                        dolor et quibusdam laboriosam rem itaque ex officiis inventore, placeat id. Modi porro
+                        dignissimos accusamus laborum quas dolorem eum. Quasi voluptas doloribus quibusdam odio?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, non. Quam dolores eius,
+                        temporibus explicabo consequuntur laudantium quia animi nostrum deserunt doloremque molestias
+                        aliquid numquam ex maiores iste magnam fugit perspiciatis! Dolorem cupiditate molestias, quidem
+                        qui suscipit hic quis enim, dicta aspernatur consequatur deleniti veniam adipisci atque officia!
+                        Inventore hic cupiditate laboriosam accusamus, perferendis delectus aspernatur accusantium
+                        fugiat in fuga ratione tempora modi blanditiis officiis consequatur consequuntur corrupti eum
+                        molestias quas, alias incidunt esse reprehenderit beatae ipsum. Eveniet laborum nobis numquam
+                        veritatis nam doloribus minima alias et mollitia, quo repudiandae ad vel ratione sunt nemo rem
+                        asperiores molestias, nihil impedit, rerum pariatur. Laboriosam architecto explicabo
+                        perspiciatis, deserunt amet incidunt ratione blanditiis neque, pariatur fugiat eligendi facere
+                        est. Animi voluptate culpa aliquam, adipisci ducimus debitis. Soluta architecto vitae facilis
+                        quis, eos cum amet rerum vero tempore, repudiandae itaque. Voluptatum magnam in blanditiis
+                        nesciunt cupiditate voluptatem omnis, veniam porro obcaecati adipisci corporis.</p>
+                        
+                        <div id="taboola-below-article-thumbnails">TABOOLA CONTENT HERE</div>
+                        <!-- <script type="text/javascript">
+                            window._taboola = window._taboola || [];
+                            _taboola.push({
+                                mode: 'thumbs-feed-01-miki',
+                                container: 'taboola-below-article-thumbnails',
+                                placement: 'Below Article Thumbnails',
+                                target_type: 'mix'
+                            });
+                        </script> -->
                 </article>
+
 
                 <aside id="categories" class="card">
                     <h2>Categories</h2>
@@ -66,12 +110,14 @@
         </div>
     </section>
 
+
     <!-- Footer -->
     <footer id="main-footer" class="py-2">
         <div class="container footer-container">
             <div>
                 <img src="img/logo_light.png" alt="NewsGrid">
-                <p>All the news you need in the <em>tightest</em> grid you'll ever find. Nesciunt voluptates ut dolor et animi necessitatibus unde sit explicabo vero.</p>
+                <p>All the news you need in the <em>tightest</em> grid you'll ever find. Nesciunt voluptates ut dolor et
+                    animi necessitatibus unde sit explicabo vero.</p>
             </div>
             <div>
                 <h3>Email Newsletter</h3>
@@ -102,5 +148,10 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({ flush: true });
+    </script>
 </body>
+
 </html>
